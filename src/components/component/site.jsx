@@ -9,7 +9,7 @@ export function Site() {
     (<div className="dark min-h-screen bg-gray-900 text-gray-100">
       <header className="px-4 py-6 lg:px-8">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Web Solutions</h1>
+          <h1 className="text-2xl font-bold">Pyrex Sites</h1>
           <nav className="space-x-4">
             <Link className="hover:underline" href="#">
               Skills
