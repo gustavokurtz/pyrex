@@ -14,11 +14,11 @@ const socialNetworks = [
 export function Template2() {
   return (
     (<div className="dark min-h-screen p-3 bg-gray-900 text-gray-100">
-      <header className="px-4 py-6 lg:px-8">
+      <header className="px-4 py-1 lg:px-8">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <ComputerIcon className="h-6 w-6 mr-3 text-blue-800" />
-            <h1 className="text-2xl font-bold">Pyrex Sites </h1>
+            <h1 className="text-2xl font-bold ">Pyrex Sites </h1>
           </div>
 
           <nav className="flex justify-center">
@@ -42,7 +42,7 @@ export function Template2() {
       <main>
         <section className="bg-gray-900" id="skills">
         <div className="container mx-auto text-center pt-20">
-          <h1 className="text-2xl font-bold mb-5">Quem somos nós? 💙</h1>
+          <h1 className="text-2xl font-bold mb-1">Quem somos nós? 💙</h1>
              <h2 className="mb-3 text-xl"> A Pyrex é uma empresa de sTI voltada na criação de Sites e Software para empresas e pessoas!</h2>
                 <h2 className="mb-3 pb-4 text-xl" >Sempre fazendo sites responsivos e com a melhor experiência para seu usuário!</h2>
                 <Link
