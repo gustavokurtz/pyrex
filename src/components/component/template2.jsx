@@ -42,7 +42,7 @@ export function Template2() {
       <main>
         <section className="bg-gray-900" id="skills">
         <div className="container mx-auto text-center pt-20">
-          <h1 className="text-3xl font-bold mb-1">Quem somos nós? 💙</h1>
+          <h1 className="text-3xl font-bold mb-3">Quem somos nós? 💙</h1>
              <h2 className="mb-3 text-xl"> A Pyrex é uma empresa de sTI voltada na criação de Sites e Software para empresas e pessoas!</h2>
                 <h2 className="mb-3 pb-4 text-xl" >Sempre fazendo sites responsivos e com a melhor experiência para seu usuário!</h2>
                 <Link
