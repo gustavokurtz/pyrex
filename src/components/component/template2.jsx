@@ -3,22 +3,22 @@
  * @see https://v0.dev/t/smFiXKLahIs
  */
 import Link from "next/link"
-import { FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa"
+import { FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp, FaCannabis, FaVoicemail } from "react-icons/fa"
 
 const socialNetworks = [
-  { name: "whatsapp", icon: <FaWhatsapp />, url: "https://wa.me/+5532999165667" },
-  { name: "instagram", icon: <FaInstagram />, url: "https://www.instagram.com/websolutionsbr/" },
-  { name: "github", icon: <FaGithub />, url: "https://github.com/gustavokurtz" },
+  { name: "whatsapp", icon: <FaWhatsapp />, url: "https://api.whatsapp.com/send?phone=553299985779&text=Opa,%20quero%20fazer%20um%20or%C3%A7amento%20com%20a%20pyrex!" },
+  { name: "instagram", icon: <FaInstagram />, url: "https://www.instagram.com/pyrexsites/" },
+  
 ]
 
 export function Template2() {
   return (
-    (<div className="dark min-h-screen bg-gray-900 text-gray-100">
+    (<div className="dark min-h-screen p-3 bg-gray-900 text-gray-100">
       <header className="px-4 py-6 lg:px-8">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <ComputerIcon className="h-6 w-6 mr-3 text-purple-500" />
-            <h1 className="text-2xl font-bold">Web Solutions</h1>
+            <ComputerIcon className="h-6 w-6 mr-3 text-blue-800" />
+            <h1 className="text-2xl font-bold">Pyrex Sites 💙</h1>
           </div>
 
           <nav className="flex justify-center">
@@ -26,7 +26,7 @@ export function Template2() {
     {socialNetworks.map((network) => (
       <a
         href={network.url}
-        className="h-10 w-1rem hover:text-purple-500 mx-2 text-2xl"  // Adicionei a classe text-xl para aumentar a fonte
+        className="h-10 w-1rem hover:text-blue-800 mx-2 text-2xl"  // Adicionei a classe text-xl para aumentar a fonte
         id={network.name}
         key={network.name}
       >
@@ -40,31 +40,41 @@ export function Template2() {
         </div>
       </header>
       <main>
-        <section className="py-12 lg:py-24 bg-gray-900" id="skills">
-          <div className="container mx-auto grid gap-8 md:grid-cols-3 text-center">
+        <section className="bg-gray-900" id="skills">
+        <div className="container mx-auto text-center pt-20">
+          <h1 className="text-2xl font-bold mb-8">Quem somos nós? 💙</h1>
+             <h2 className="mb-3 text-xl"> A Pyrex é uma empresa de TI voltada na criação de Sites e Software para empresas e pessoas! 💙</h2>
+                <h2 className="mb-3 pb-4 text-xl" >Sempre fazendo sites responsivos e com a melhor experiência para seu usuário!</h2>
+                <Link
+              className="inline-flex h-10 items-center justify-center rounded-md bg-blue-800 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-blue-800"
+              href="https://gustavokurtz.github.io/">
+              Projetos
+            </Link>
+        </div>
+          <div className="container mx-auto grid gap-8 md:grid-cols-3 text-center pt-20">
             <div>
-              <CodeIcon className="h-12 w-12 mx-auto mb-4 text-purple-500" />
+              <CodeIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
               <h3 className="text-2xl font-bold mb-2">Desenvolvimento</h3>
               <p className="text-gray-300">Construindo soluções de software escaláveis e de fácil manutenção.</p>
             </div>
             <div>
-              <LayoutIcon className="h-12 w-12 mx-auto mb-4 text-purple-500" />
+              <LayoutIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
               <h3 className="text-2xl font-bold mb-2">Design</h3>
               <p className="text-gray-300">Criando interfaces de usuário intuitivas e responsivas.</p>
             </div>
             <div>
-              <DatabaseIcon className="h-12 w-12 mx-auto mb-4 text-purple-500" />
+              <DatabaseIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
               <h3 className="text-2xl font-bold mb-2">Automações</h3>
               <p className="text-gray-300">Projetando soluções de automação de atendimentos eficientes!.</p>
             </div>
           </div>
           <section className="py-12 lg:py-24">
           <div className="container mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-4">Construindo Software de Qualidade</h2>
+            <h2 className="text-2xl font-bold mb-4">Construindo Software de Qualidade</h2>
             <p className="text-lg text-gray-300 mb-8">Criando soluções inovadoras para resolver problemas modernos</p>
             <Link
-              className="inline-flex h-10 items-center justify-center rounded-md bg-purple-600 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-purple-500"
-              href="https://wa.me/+5532999165667">
+              className="inline-flex h-10 items-center justify-center rounded-md bg-blue-800 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-blue-800"
+              href="https://api.whatsapp.com/send?phone=553299985779&text=Opa,%20quero%20fazer%20um%20or%C3%A7amento%20com%20a%20pyrex!">
               Fale Conosco
             </Link>
           </div>
