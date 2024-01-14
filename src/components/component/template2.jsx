@@ -26,7 +26,7 @@ export function Template2() {
     {socialNetworks.map((network) => (
       <a
         href={network.url}
-        className="h-10 w-1rem hover:text-blue-800 mx-2 text-2xl"  // Adicionei a classe text-xl para aumentar a fonte
+        className="h-10 w-1rem hover:text-blue-500 mx-2 text-2xl"  // Adicionei a classe text-xl para aumentar a fonte
         id={network.name}
         key={network.name}
       >
