@@ -54,18 +54,18 @@ export function Template2() {
           <div className="container mx-auto grid gap-8 md:grid-cols-3 text-center pt-20">
             <div>
               <CodeIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
-              <h3 className="text-2xl font-bold mb-2">Desenvolvimento</h3>
-              <p className="text-gray-300">Construindo soluções de software escaláveis e de fácil manutenção.</p>
+              <h3 className="text-2xl font-bold mb-2">Sites</h3>
+              <p className="text-gray-300">Construindo sites personalizados do jeito que o cliente quer!.</p>
             </div>
             <div>
               <LayoutIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
-              <h3 className="text-2xl font-bold mb-2">Design</h3>
-              <p className="text-gray-300">Criando interfaces de usuário intuitivas e responsivas.</p>
+              <h3 className="text-2xl font-bold mb-2">Lojas Virtuais</h3>
+              <p className="text-gray-300">Criando lojas virtuais para qualquer tipo de empreendimento!.</p>
             </div>
             <div>
               <DatabaseIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
-              <h3 className="text-2xl font-bold mb-2">Automações</h3>
-              <p className="text-gray-300">Projetando soluções de automação de atendimentos eficientes!.</p>
+              <h3 className="text-2xl font-bold mb-2">Trafego Pago</h3>
+              <p className="text-gray-300">Sempre levando muitos clientes para sua empresa ou produto! </p>
             </div>
           </div>
           <section className="py-12 lg:py-24">
