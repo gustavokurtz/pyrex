@@ -64,7 +64,7 @@ export function Template2() {
             </div>
             <div>
               <DatabaseIcon className="h-12 w-12 mx-auto mb-4 text-blue-800" />
-              <h3 className="text-2xl font-bold mb-2">Trafego Pago</h3>
+              <h3 className="text-2xl font-bold mb-2">Tráfego Pago</h3>
               <p className="text-gray-300">Sempre levando muitos clientes para sua empresa ou produto! </p>
             </div>
           </div>
